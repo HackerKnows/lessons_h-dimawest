@@ -11,7 +11,10 @@ namespace стоймость_килограмма
         static void Main(string[] args)
         {
             Console.WriteLine("стоймость килограмма конфет");
+            int candy = int.Parse(Console.ReadLine());
             Console.WriteLine("сколько хотите купить килограмм");
+            int weight = int.Parse(Console.ReadLine());
+            Console.WriteLine(candy * weight);
             Console.ReadLine();
         }
     }
